@@ -1,9 +1,11 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- *more headers goes there
+ *main - display if number is positive | negative | zero
  *
- *betty style doc for function main goes there
+ *Return: 0 and end program
 */
 int main(void)
 {
