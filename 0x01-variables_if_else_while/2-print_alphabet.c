@@ -3,12 +3,12 @@
 /**
  *main _ display "Printing the alphabet in lower case followed by a new line"
  *Return: O and end program
-*/
+ */
 int main(void)
 {
-	char alphabet;
+	char letter;
 	 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(alphabet);
 	
 	putchar('\n');

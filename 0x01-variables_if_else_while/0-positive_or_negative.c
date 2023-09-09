@@ -5,7 +5,7 @@
 /**
  *main - display if number is positive | negative | zero
  *Return: 0 and end program
-*/
+ */
 int main(void)
 {
 	int n;
