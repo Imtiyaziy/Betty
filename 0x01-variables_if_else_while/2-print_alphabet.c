@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main _ display Printing the alphabet in lower case followed by a new line
- * Return: O and end program
+ * main - display Printing the alphabet in lower case followed by a new line
+ * Return: O and exit program
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter);
 	
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
