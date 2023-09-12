@@ -1,24 +1,36 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
+/**
+ *main - display input
+ *
+ *Return: 0 for success
+ */
 int main(void)
 {
-	int a = 0;
-	int b = a + 1;
+	int a;
+	int b;
 
-	while ( a < 9)
+	for (a = 0; a <= 8; a++)
 	{
-		putchar(a + '0');
-		a++;
-		if (b < 10)
+		for (b = a + 0; b <= 9; b++)
 		{
-			putchar(b + '0');
-			b++;
+			putchar(a + '0');
+			putchar(b + '1');
 
-		}
-
-			putchar(',');
-			putchar(' ');
-		}
+			if (a != 8 || b != 9)
+			{
+				putchar(',');
+				putchar(' ');
+				}
+			if (b == 9)
+			{
+				a++;
+				b = a;
+			}
+			}
+	}
 	putchar('\n');
 	return (0);
 }
