@@ -1,4 +1,6 @@
 #include "_putchar.c"
+#include "main.h"
+
 /**
  *main - display input
  *Return: 0 for sucess
