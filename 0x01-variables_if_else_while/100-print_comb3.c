@@ -14,7 +14,7 @@ int main(void)
 
 	for (a = 0; a <= 8; a++)
 	{
-		for (b = a + 0; b <= 9; b++)
+		for (b = a + 0; b < 9; b++)
 		{
 			putchar(a + '0');
 			putchar(b + '1');
@@ -24,12 +24,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 				}
-			if (b == 9)
-			{
-				a++;
-				b = a;
-			}
-			}
+		}
 	}
 	putchar('\n');
 	return (0);
