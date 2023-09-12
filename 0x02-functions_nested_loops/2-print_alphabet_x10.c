@@ -14,7 +14,6 @@ void print_alphabet_x10(void)
 	{
 		for (you = 'a'; you <= 'z'; you++)
 			_putchar(you);
+		_putchar('\n');
 	}
-
-	_putchar('\n');
 }
