@@ -2,7 +2,7 @@
 
 /**
  *print_sign - display point
- *@c: The character t9 print
+ *@n: The character t9 print
  *
  *Return: 0 for success
  */
@@ -21,7 +21,7 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		_putchar('-');
-		return (-1);
+		return ('/');
 	}
 	return (0);
 }
