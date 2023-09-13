@@ -8,15 +8,18 @@
  */
 int print_last_digit(int b)
 {
-	int g;
-
-	if (g < 0);
+	while (b < 0)
 	{
-		int n = -g;
+		int n = -b;
 
-		return (n);
+		return (b);
 	}
 
-	b = n % 10;
-	return (b);
+	int c;
+
+	c = n % 10;
+	{
+		return (c);
+	}
+
 }
