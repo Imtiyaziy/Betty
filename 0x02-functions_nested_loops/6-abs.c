@@ -10,9 +10,9 @@ int _abs(int n)
 {
 	if (n < 0)
 	{
-		int abs = n(-1);
+		int bell = n * -1;
 
-		return (abs);
+		return (bell);
 	}
 
 	return (j);
