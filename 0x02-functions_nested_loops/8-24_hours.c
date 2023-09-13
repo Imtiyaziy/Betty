@@ -33,7 +33,9 @@ void jack_bauer(void)
 
 				if (h1 == 3 && h == 2)
 					continue;
+				{
 					_putchar(':');
+				}
 			}
 			_putchar(h + '0');
 		}
