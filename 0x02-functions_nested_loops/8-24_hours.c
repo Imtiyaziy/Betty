@@ -16,24 +16,22 @@ void jack_bauer(void)
 
 			for (h1 = 0; h1 <= 3; h1++)
 			{
+				int m;
+
+				for (m = 0; m <= 5; m++)
+				{
+					int s;
+
+					for (s = 0; s <= 9; s++)
+					{
+						_putchar(s);
+					}
+					_putchar(m);
+				}
 				_putchar(h1);
+				_putchar(':')
 			}
-			_pucchar(h);
-			_putchar(':');
-
-			int m;
-
-			for (m = 0; m <= 5; m++)
-			{
-				_putchar(m);
-			}
-
-			int s;
-
-			for (s = 0; s <= 9; s++)
-			{
-				_putchar(s);
-			}
-			_putchar('\n');
+			_putchar(h)
 		}
+		_putchar('\n');
 }
