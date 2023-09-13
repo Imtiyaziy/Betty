@@ -29,8 +29,10 @@ void jack_bauer(void)
 					}
 					_putchar(m + '0');
 				}
-				if (h1 != 4)
-					_putchar(h1 + '0');
+				_putchar(h1 + '0');
+
+				if (h1 == 3 && h == 2)
+					continue;
 					_putchar(':');
 			}
 			_putchar(h + '0');
