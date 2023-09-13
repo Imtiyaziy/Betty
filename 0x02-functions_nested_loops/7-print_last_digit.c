@@ -8,11 +8,13 @@
  */
 int print_last_digit(int b)
 {
-	int c;
-
-	c = b % 10;
+	while (b < 0)
 	{
-		return (c);
-	}
+		int c;
 
+		c = b % 10;
+		{
+			return (c);
+		}
+	}
 }
