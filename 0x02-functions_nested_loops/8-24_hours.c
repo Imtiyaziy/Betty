@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 
 /**
  *jack_bauer - display point
@@ -10,7 +10,7 @@ void jack_bauer(void)
 {
 	int h = 0,
 
-		for (d = 0; d <= 2; d++)
+		for (h = 0; h <= 2; h++)
 		{
 			int h1;
 
