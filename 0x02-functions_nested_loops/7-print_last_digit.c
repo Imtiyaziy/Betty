@@ -8,16 +8,9 @@
  */
 int print_last_digit(int b)
 {
-	while (b < 0)
-	{
-		int n = -b;
-
-		return (b);
-	}
-
 	int c;
 
-	c = n % 10;
+	c = b % 10;
 	{
 		return (c);
 	}
