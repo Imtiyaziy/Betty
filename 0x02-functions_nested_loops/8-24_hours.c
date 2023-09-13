@@ -24,19 +24,18 @@ void jack_bauer(void)
 
 					for (s = 0; s <= 9; s++)
 					{
+						if (h == 2 && h1 == 3)
+						{
+							break;
+						}
+						_putchar(h + '0');
+						_putchar(h1 + '0');
+						_putchar(58);
+						_putchar(m + '0');
 						_putchar(s + '0');
-						_putchar('\n');
 					}
-					_putchar(m + '0');
-				}
-				_putchar(h1 + '0');
-
-				if (h1 == 3 && h == 2)
-					continue;
-				{
-					_putchar(':');
 				}
 			}
-			_putchar(h + '0');
 		}
 }
+
