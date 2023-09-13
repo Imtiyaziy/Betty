@@ -10,10 +10,12 @@ int _abs(int n)
 {
 	if (n < 0)
 	{
-		int bell = n * -1;
+		int bell = -n;
 
 		return (bell);
 	}
-
-	return (j);
+	else
+	{
+	return (n);
+	}
 }
