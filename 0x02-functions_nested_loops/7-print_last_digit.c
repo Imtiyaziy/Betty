@@ -9,9 +9,14 @@
 int print_last_digit(int b)
 {
 	int g;
-	g = 1267;
 
-	b = g % 10;
+	if (g < 0);
+	{
+		int n = -g;
 
+		return (n);
+	}
+
+	b = n % 10;
 	return (b);
 }
