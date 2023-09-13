@@ -24,14 +24,14 @@ void jack_bauer(void)
 
 					for (s = 0; s <= 9; s++)
 					{
-						_putchar(s);
+						_putchar(s + '0');
 					}
-					_putchar(m);
+					_putchar(m + '0');
 				}
-				_putchar(h1);
+				_putchar(h1 + '0');
 				_putchar(':');
 			}
-			_putchar(h);
+			_putchar(h + '0');
 		}
 		_putchar('\n');
 }
