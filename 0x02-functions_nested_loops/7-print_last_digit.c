@@ -10,7 +10,7 @@ int print_last_digit(int b)
 {
 	while (b < 0)
 	{
-		_putchar('0' + b)
+		_putchar('0' + b);
 
 		int c;
 
