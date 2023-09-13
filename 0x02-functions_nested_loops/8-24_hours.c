@@ -29,7 +29,7 @@ void jack_bauer(void)
 					}
 					_putchar(m + '0');
 				}
-				if (u != 4)
+				if (h1 != 4)
 					_putchar(h1 + '0');
 					_putchar(':');
 			}
