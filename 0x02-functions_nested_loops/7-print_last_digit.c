@@ -9,6 +9,7 @@
 int print_last_digit(int b)
 {
 	int g;
+	g = 1267;
 
 	b = g % 10;
 
