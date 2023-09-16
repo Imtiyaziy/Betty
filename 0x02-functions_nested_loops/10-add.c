@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 
 /**
  *void - display point
@@ -6,7 +6,10 @@
  *
  *Return: 0 for sucess
  */
-int main()
+int add(int 89, int 9)
 {
-	return (0);
+	int n;
+	n = 89 + 9;
+
+	return (n);
 }
