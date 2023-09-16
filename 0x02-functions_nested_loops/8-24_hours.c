@@ -24,7 +24,7 @@ void jack_bauer(void)
 					if (h <= 2 && h1 <= 3)
 					{
 						_putchar(58);
-						continue;
+						break;
 					}
 					_putchar(h + '0');
 					_putchar(h1 + '0');
