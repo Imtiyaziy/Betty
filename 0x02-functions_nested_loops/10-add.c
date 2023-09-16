@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- *void - display point
- *a : The character to print
+ *add - display point
+ *@n1 : The fitst character to print
+ *@n2 : The second character to print
  *
  *Return: 0 for sucess
  */
-int add(int 89; int 9;)
+int add(int n1, int n2)
 {
 	int n;
-	n = 89 + 9;
+
+	n = (n1 + n2);
 
 	return (n);
 }
