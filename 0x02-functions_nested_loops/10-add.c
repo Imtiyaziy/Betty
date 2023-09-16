@@ -6,7 +6,7 @@
  *
  *Return: 0 for sucess
  */
-int add(int 89, int 9)
+int add(int 89; int 9;)
 {
 	int n;
 	n = 89 + 9;
