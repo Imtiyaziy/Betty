@@ -1,12 +1,15 @@
-#iclude "main.h"
+#include "main.h"
 
 /**
  *void - display point
- *a : The character to print
+ *@n : The character to print
  *
  *Return: 0 for sucess
  */
-int main()
+void print_to_98(int n)
 {
-	return (0);
-}
+	while (n <= 98)
+
+		if ( n < 98)
+		{
+			_putchar
