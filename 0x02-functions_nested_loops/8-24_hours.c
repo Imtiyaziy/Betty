@@ -23,11 +23,11 @@ void jack_bauer(void)
 				{
 					if (h <= 2 && h1 <= 3)
 					{
-						_putchar(58);
 						break;
 					}
 					_putchar(h + '0');
 					_putchar(h1 + '0');
+					_putchar(58);
 					_putchar(m + '0');
 					_putchar(s + '0');
 				}
