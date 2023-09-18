@@ -13,14 +13,14 @@ void puts2(char *str)
 	char *m = str;
 	int o;
 
-	while (*y != '\0')
+	while (*m != '\0')
 	{
 		m++;
 		l++;
 	}
 	a = l - 1;
 
-	for (o = 0, o <= a; o++)
+	for (o = 0; o <= a; o++)
 	{
 		if (o % 2 == 0)
 		{
