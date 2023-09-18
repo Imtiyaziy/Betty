@@ -2,7 +2,7 @@
 
 /**
  *swap_int - a function that swaps the values of two integers
- *@b: First input
+ *@a: First input
  *@b: Second input
  *
  */
