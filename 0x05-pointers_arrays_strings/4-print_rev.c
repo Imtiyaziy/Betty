@@ -18,9 +18,10 @@ void print_rev(char *s)
 	}
 	s--;
 
-	for (dj = j; dj >= 0; dj--)
+	for (dj = j; dj > 0; dj--)
 	{
 		_putchar(*s);
 		s--;
 	}
+	_putchat('\n')
 }
